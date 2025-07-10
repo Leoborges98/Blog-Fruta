@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Itim', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 28px 150px;
+    background-color: #2C932E ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ header img {
+    width: 120px; /* ou o tamanho que quiser */
+    height: auto; /* mantém a proporção */
+}
+
+header .logo{
+    display: flex;
+}
+
+header .logo h1 {
+    font-size: 4.8rem;
+    color: #ffe016;
+}
+
+header nav {
+    display: flex;
+    gap: 6.8rem;
+}
+
+header nav a{
+    color: #ffe016;
+    font-size: 3.2rem;
+}
+
+main {
+    padding: 6.2rem 15rem;
+}
+
+main  .banana-section h2{
+    font-size: 4.8rem;
+    margin-bottom: 2rem;
+}
+
+main .banana-section article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+
+}
+
+main .banana-section article div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main .banana-section article div h3{
+    font-size: 4.0rem;
+}
+
+main .banana-section article div p{
+    font-size: 1.6rem;
+}
+
+main .Other-fruits-section h2{
+    font-size: 4.8rem;
+    margin-bottom: 3.4rem;
+}
+
+main .Other-fruits-section .fruits-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+}
+
+main .Other-fruits-section .fruits-grid div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .Other-fruits-section .fruits-grid div h3 {
+    font-size: 3.3rem;
+}
+
+main .Other-fruits-section .fruits-grid div p {
+    font-size: 1.6rem;
+}
+
+footer{
+     background-color: #ffe016;
+     padding: 5.3rem 0;
+     display: flex;
+     justify-content: center;
+}
+
+
+footer span{
+    font-size: 1.6rem;
+}
